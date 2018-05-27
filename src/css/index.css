@@ -1,0 +1,15 @@
+body{
+  background-color: #fdfdfd;
+  color: white;
+}
+#title {
+  color: #e96363;
+  font-size: 14px;
+}
+.header {
+  background: url('../images/header.jpg') center center;
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  transform: rotate(45deg);
+}
