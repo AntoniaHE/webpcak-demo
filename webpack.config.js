@@ -21,11 +21,8 @@ if(process.env.type === 'build'){
 }else{
   website.publicPath = 'http://team.zbj.com/'
 }
-console.log(JSON.stringify(entry))
-console.log('--------')
-console.log('--------')
-console.log('--------')
-console.log('config' + config.name)
+console.log(JSON.stringify(process.argv))
+console.log('config-' + config.name)
 
 const webpack  = require('webpack')
 
